@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            // Q & A - Exercise 1
+
             Console.WriteLine("Hello, what is your name?");
                 var name = Console.ReadLine();
             Console.WriteLine($"It's very nice to meet you, {name}.");
@@ -18,7 +20,7 @@
                 var band = Console.ReadLine();
             Console.WriteLine("Here is a fun little story for you.");
 
-            // Fun Story
+            // Fun Story - Exercise 2
 
             Console.WriteLine($"There once was a person named {name} who lived in a {color} house that was three stories tall. {name} had two roomates. " +
                 $"One was a kangaroo and the other was a {animal}. They enjoyed spending time together going to movies and concerts. {name} really enjoyed" +
