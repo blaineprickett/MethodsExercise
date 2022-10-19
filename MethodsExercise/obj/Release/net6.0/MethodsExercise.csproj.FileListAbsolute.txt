@@ -1,0 +1,15 @@
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/bin/Release/net6.0/MethodsExercise
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/bin/Release/net6.0/MethodsExercise.deps.json
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/bin/Release/net6.0/MethodsExercise.runtimeconfig.json
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/bin/Release/net6.0/MethodsExercise.dll
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/bin/Release/net6.0/MethodsExercise.pdb
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.csproj.AssemblyReference.cache
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.AssemblyInfoInputs.cache
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.AssemblyInfo.cs
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.csproj.CoreCompileInputs.cache
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.dll
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/refint/MethodsExercise.dll
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.pdb
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/MethodsExercise.genruntimeconfig.cache
+/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/Release/net6.0/ref/MethodsExercise.dll
