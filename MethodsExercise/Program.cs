@@ -6,8 +6,9 @@ namespace MethodsExercise
     {
         static void Main()
         {
-            //Exercises.Exercise1();
+            Exercises.Exercise1();
             Exercises.Exercise2();
+            Exercises.Exercise2_BOnus();
 
         }
     }
