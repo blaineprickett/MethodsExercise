@@ -58,7 +58,7 @@ namespace MethodsExercise
             Console.WriteLine(quotient);
         }
 
-        public static void Exercise2_BOnus()
+        public static void Exercise2_Bonus()
         {
             var paramsResult = (Add(1, 1, 1, 1, 1));
             Console.WriteLine(paramsResult);
