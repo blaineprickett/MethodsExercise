@@ -1,101 +1,75 @@
-﻿using System;
-
-namespace MethodsExercise
+﻿class Program
 {
-    public class Exercises
+    static void Main(string[] args)
     {
-        public static void Exercise1()
-        {
+        // Get user input
+        string name = UserInput("What is your name?");
+        string favoriteColor = UserInput("What is your favorite color?");
+        string favoriteAnimal = UserInput("What is your favorite animal?");
+        string favoriteBand = UserInput("What is your favorite band?");
 
-            // Q & A - Exercise 1
+        string story = CreateStory(name, favoriteColor, favoriteAnimal, favoriteBand);
 
-            Console.WriteLine("Hello, what is your name?");
-            var name = Console.ReadLine();
+        Console.WriteLine();
+        Console.WriteLine(story);
 
-            Console.WriteLine($"It's very nice to meet you, {name}.");
-            Console.ReadLine();
+        // Call the add method
+        int sum = Add(10, 5);
+        Console.WriteLine("10 + 5 = {0}", sum);
 
-            Console.WriteLine($"What is your favorite color, {name}");
-            var color = Console.ReadLine();
+        // Call the subtract method
+        int difference = Subtract(10, 5);
+        Console.WriteLine("10 - 5 = {0}", difference);
 
-            Console.WriteLine($"What about your favorite animal, {name}");
-            var animal = Console.ReadLine();
+        // Call the multiply method
+        int product = Multiply(10, 5);
+        Console.WriteLine("10 * 5 = {0}", product);
 
-            Console.WriteLine("What is one animal that you think is scary?");
-            var scaryAnimal = Console.ReadLine();
+        // Call the divide method
+        int quotient = Divide(10, 5);
+        Console.WriteLine("10 / 5 = {0}", quotient);
 
-            Console.WriteLine("Who is your favorite band?");
-            var band = Console.ReadLine();
+        // Call the modulus method
+        int modulus = Modulus(10, 5);
+        Console.WriteLine("10 % 5 = {0}", modulus);
+    }
 
-            Console.WriteLine("Here is a fun little story for you.");
-            Console.WriteLine();
+    static string UserInput(string question)
+    {
+        Console.WriteLine(question);
+        return Console.ReadLine();
+    }
 
-            Console.WriteLine($"Would you like a nice little store, {name}?");
-            var story = Console.ReadLine();
+    static string CreateStory(string name, string favoriteColor, string favoriteAnimal, string favoriteBand)
+    {
+        // Create a story using string interpolation
+        return $"Once upon a time, there was a person named {name} who loved the color {favoriteColor}. They had a pet {favoriteAnimal} and their favorite band was {favoriteBand}.\n";
 
-            Console.WriteLine();
+    }
 
-            Console.WriteLine($"There once was a person named {name} who lived in a {color} house that was three stories tall. {name} had two roomates. " +
-            $"One was a kangaroo and the other was a {animal}. They enjoyed spending time together going to movies and concerts. {name} really enjoyed" +
-                $" loud and aggressive rock concerts. One time they went to see {band} and {name} got rather rowdy in the pit. He channeled his spirit animal the {scaryAnimal}" +
-                $" and opened the pit all the way up. Everyone was moshing and going wild. They all had a blast, but by the end {name} was all bruised up. It was totally worth it, he said. " +
-                $" So they began their long walk home to their three story {color} castle.");
-            Console.ReadLine();
-        }
+    static int Add(int a, int b)
+    {
+        return a + b;
+    }
 
-        public static void Exercise2()
-        {
-            var result = Add(10, 44);
-            Console.WriteLine(result);
+    static int Subtract(int a, int b)
+    {
+        return a - b;
+    }
 
-            var difference = Subtract(14, 19);
-            Console.WriteLine(difference);
+    static int Multiply(int a, int b)
+    {
+        return a * b;
+    }
 
-            var product = Multiply(34343, 2828);
-            Console.WriteLine(product);
+    static int Divide(int a, int b)
+    {
+        return a / b;
+    }
 
-            var quotient = Divide(10, 2);
-            Console.WriteLine(quotient);
-        }
-
-        public static void Exercise2_Bonus()
-        {
-            var paramsResult = (Add(1, 1, 1, 1, 1));
-            Console.WriteLine(paramsResult);
-        }
-
-        public static int Add(int x, int y)
-        {
-            return x + y;
-        }
-
-        public static int Subtract(int x, int y)
-        {
-            return x - y;
-        }
-
-        public static int Multiply(int x, int y)
-        {
-            return x * y;
-        }
-
-        public static int Divide(int x, int y)
-        {
-            return x / y;
-        }
-
-        public static int Add(params int[] numbers)
-        {
-            //return array.Sum();
-            int result = 0;
-
-            foreach (var number in numbers)
-            {
-                result += number;
-            }
-            return result;
-        }
-
+    static int Modulus(int a, int b)
+    {
+        return a % b;
     }
 }
 

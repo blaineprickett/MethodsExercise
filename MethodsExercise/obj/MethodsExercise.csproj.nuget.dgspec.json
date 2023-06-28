@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/MethodsExercise.csproj": {}
+    "/Users/blaineprickett/repos/Old/MethodsExercise/MethodsExercise/MethodsExercise.csproj": {}
   },
   "projects": {
-    "/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/MethodsExercise.csproj": {
+    "/Users/blaineprickett/repos/Old/MethodsExercise/MethodsExercise/MethodsExercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/MethodsExercise.csproj",
+        "projectUniqueName": "/Users/blaineprickett/repos/Old/MethodsExercise/MethodsExercise/MethodsExercise.csproj",
         "projectName": "MethodsExercise",
-        "projectPath": "/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/MethodsExercise.csproj",
+        "projectPath": "/Users/blaineprickett/repos/Old/MethodsExercise/MethodsExercise/MethodsExercise.csproj",
         "packagesPath": "/Users/blaineprickett/.nuget/packages/",
-        "outputPath": "/Users/blaineprickett/repos/MethodsExercise/MethodsExercise/obj/",
+        "outputPath": "/Users/blaineprickett/repos/Old/MethodsExercise/MethodsExercise/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/blaineprickett/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net6.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }
