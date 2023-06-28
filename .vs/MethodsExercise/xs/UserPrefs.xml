@@ -6,16 +6,13 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="MethodsExercise/Exercises.cs">
     <Files>
       <File FileName="MethodsExercise/Program.cs" />
-      <File FileName="MethodsExercise/Exercises.cs" Line="64" Column="45" />
+      <File FileName="MethodsExercise/Exercises.cs" Line="76" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MethodsExercise">
+          <Node name="MethodsExercise" expanded="True">
             <Node name="MethodsExercise">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-              </Node>
               <Node name="Exercises.cs" selected="True" />
             </Node>
           </Node>
